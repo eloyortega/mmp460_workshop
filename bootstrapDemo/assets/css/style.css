@@ -1,0 +1,17 @@
+#hero{
+	background:url(../img/hero.jpg);
+	background-size:cover;
+}
+
+#hero .col-md-6{
+	background:rgba(255,255,255, .75);
+}
+
+#cta{
+	background:url(../img/cta.jpg);
+	background-size:cover;
+}
+
+.btn-primary{
+	background-color: #ff0000;
+}

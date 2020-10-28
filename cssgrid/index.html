@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Document</title>
+		<style>
+			
+			*{
+				margin:0;
+				font-family:Palatino;
+				box-sizing: border-box;
+			}
+			
+			img{
+				max-width:100%;
+				width:auto;
+			}
+			
+			
+			#container{
+				width:800px;
+				border:1px solid black;
+				margin:0 auto;
+				display:grid;
+				grid-template-columns: 80px 280px 80px 200px 160px;
+				grid-template-rows: 40px 40px 200px 40px 40px;
+			}
+			
+			#redbar{
+				background: #F00;
+				grid-column: 1/6;
+				grid-row:3/4;
+			}
+			
+			#mainimg{
+				grid-column: 2/3;
+				grid-row:2/5;
+				background:#000;
+				display:flex;
+				justify-content: center;
+				align-items: center;
+				border-radius:50%;
+				border:10px double #fff;
+			}
+			
+			#maintext{
+				grid-column: 4/5;
+				grid-row:3/4;
+				padding-top:14px;
+			}
+			
+			
+			
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="redbar">
+			</div>
+			<div id="mainimg">
+				<img src="assets/img/dancer1.png">
+			</div>
+			<div id="maintext">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+		</div>
+	</body>
+</html>

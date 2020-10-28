@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+	<head>
+	<title>other column structs</title>
+
+	<style>
+		* {
+			margin: 0;
+			box-sizing: border-box;
+			font-family: verdana;
+		}
+
+		img {
+			max-width: 100%;
+			width: auto;
+		}
+
+		/* inline-block */
+		/*
+			#container{
+				border:1px solid #000;
+				max-width:600px;
+				margin:0 auto;
+			}
+			
+			#imgc{
+				width:25%;
+				background:#000;
+				display:inline-block;
+				vertical-align: top;
+			}
+			
+			#textc{
+				width:74%;
+				background:#ddd;
+				display: inline-block;
+				padding:40px;
+				vertical-align: top;
+			}
+*/
+
+		/* float */
+/*
+		#container {
+			max-width: 600px;
+			border: 1px solid #000;
+			margin: 0 auto;
+		}
+
+		#container:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		#imgc,
+		#textc {
+			float: left;
+		}
+
+		#imgc {
+			width: 25%;
+			background:#000;
+		}
+
+		#textc {
+			width:75%;
+			background:#ddd;
+			padding:20px;
+		}
+*/
+
+		/* flex */
+		
+		#container{
+			max-width: 600px;
+			border: 1px solid #000;
+			margin: 0 auto;
+			display:flex;
+		}
+		
+		#imgc{
+			width:25%;
+			background:#000;
+			display:flex;
+			align-items: center;
+		}
+		
+		#textc{
+			width:75%;
+			background:#ddd;
+			padding:20px;
+		}
+		
+	</style>
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="imgc">
+			<img src="assets/img/dancer1.png">
+		</div>
+		<div id="textc">
+			<p>Lorem ipsum dolor sit amet, <a href="#">link 1</a> <a href="#">link 2</a> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+</body></html>
